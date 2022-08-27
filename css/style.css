@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --primaryColor:rgb(13, 62, 92);
+}
+.bg-nyc{
+    background:var(--primaryColor);
+  
+}
+
+/* landing Page */
+#landingPage{
+    width: 100%;
+    height: 100vh;
+ 
+}
+.carousel-item img
+{
+    object-fit: cover!important;
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-indicators li
+{
+    width: 30px!important;
+    height: 30px!important;
+    margin-bottom: 80px;
+ margin-left:20px
+
+}
+.carousel-caption 
+{
+    right: 15%;
+    bottom: 200px!important;
+    left: 15%;
+}
+.btn-info{
+    background:var(--primaryColor)!important;
+}
+.overlay{
+    position:absolute;
+    
+    width: 100%;
+    height: 100vh;
+    background:rgba(13, 62, 92, 0.5);
+}
+
+
+/* search Destionation */
+.bg-destination
+{
+    background:var(--primaryColor);
+    width: 100%;
+}
+/* search Destionation */
+
+
+/* features */
+.text-color
+{
+    color:var(--primaryColor);
+}
+.list-group-item.active
+{
+    background:var(--primaryColor);
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* popular places */
+
+.line
+{
+    position:absolute;
+width: 10%;
+height: 10%;
+    background:var(--primaryColor);
+    margin-left:45%;
+   margin-top:20px
+ 
+}
+/* popular places */
+
+/* bookbColor */
+.bookColor
+{
+    background: linear-gradient(45deg ,rgba(0, 0, 0, 0.842),rgb(13, 62, 92));
+    color:#fff;
+}
+.bookColor:hover{
+    color:#fff;
+}
+/* bookbColor */
+
+.form-control{
+    outline:none!important;
+    box-shadow:none!important
+}
+/* follow Section */
+.followSection
+{
+    background:var(--primaryColor);
+    width: 100%;
+    color:#fff;
+}
+/* follow Section */
+
+/* footerSection */
+.footer
+{
+    background: var(--primaryColor);
+
+}
+/* footerSection */
+
+@media screen and (max-width: 768px) {
+    .carousel-caption 
+{
+    right: 5%;
+    bottom: -90px!important;
+    left: 10%;
+}
+#photoGallery .container .row .col-md-3
+{
+    margin-left:-20px!important
+}
+#followSection .container h1
+{
+    font-size: 30px;
+    font-weight: bold ;
+}
+#popularPlaces .container h2
+{
+    font-size: 30px;
+    font-weight: bold ;
+}
+#popularPlaces .container .card
+{
+   margin-left:-20px !important
+}
+#photoGallery h2
+{
+ font-size: 33px;
+ font-weight: bold ;
+}
+#contact .container .list-group-item .active
+{
+    width: 300px!important;
+}
+}
